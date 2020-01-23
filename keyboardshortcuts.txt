@@ -1,0 +1,25 @@
+Alt + Tab => Moves right through all open windows
+Alt + Shift + Tab => Moves left through all open windows
+
+Win Key + Tab => Displays overview of all open windows and some history
+Win Key + D => Moves focus to desktop
+
+Ctrl + Shift + Esc => Opens Task Manager
+Ctrl C => Copy text
+Ctrl X => Cut text
+Ctrl V => Paste text
+
+Double left click => Select word
+Triple left click => Select line
+
+Visual Studio: 
+
+Solution Explorer => Ctrl + Alt + L
+Build Solution => Ctrl + Shift + B
+Run without debugging => Ctrl + F5
+Comment Highlighted code => Ctrl + K then Ctrl + C
+Uncomment Highlighted code => Ctrl + K then Ctrl + U
+Auto format selection => Ctrl + K then Ctrl + F
+Auto document selection => Ctrl + K then Ctrl + D
+
+
