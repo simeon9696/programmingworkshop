@@ -14,6 +14,7 @@ git clone https://github.com/simeon9696/programmingworkshop.git
 These presentations contain the use of images from https://unsplash.com/ if you do not want your images to be used here, please contact us
 
 Massive thanks to 
+- Christopher Ash
 - Naomi Padmore
 - Daniel Gordon
 - Usman Mohammed
