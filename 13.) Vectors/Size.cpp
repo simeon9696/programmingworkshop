@@ -1,0 +1,56 @@
+
+#include <iostream> 
+#include <vector> 
+
+using std:: cout;
+
+void size() {
+	std::vector<int> g1;
+
+	for (int i = 1; i <= 5; i++)
+		g1.push_back(i);
+
+	cout << "Size : " << g1.size();
+	cout << "\nCapacity : " << g1.capacity();
+	cout << "\nMax_Size : " << g1.max_size();
+}
+
+// resizes the vector size to 4 
+void resize() {
+	std::vector<int> g1;
+
+	for (int i = 1; i <= 5; i++)
+		g1.push_back(i);
+	g1.resize(4);
+
+	// prints the vector size after resize() 
+	cout << "\nSize : " << g1.size();
+
+}
+void check_empty() {
+
+	std::vector<int> g1;
+
+	for (int i = 1; i <= 5; i++)
+		g1.push_back(i);
+
+
+	// checks if the vector is empty or not 
+	if (g1.empty() == false)
+		cout << "\nVector is not empty";
+	else
+		cout << "\nVector is empty";
+}
+void shrink() {
+
+	std::vector<int> g1;
+
+	for (int i = 1; i <= 5; i++)
+		g1.push_back(i);
+
+	// Shrinks the vector 
+	g1.shrink_to_fit();
+	cout << "\nVector elements are: ";
+	for (auto it = g1.begin(); it != g1.end(); it++)
+		cout << *it << " ";
+}
