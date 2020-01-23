@@ -22,4 +22,6 @@ Uncomment Highlighted code => Ctrl + K then Ctrl + U
 Auto format selection => Ctrl + K then Ctrl + F
 Auto document selection => Ctrl + K then Ctrl + D
 
+Terminal: 
+Press the Up Arrow to get commands previously entered instead of retyping
 
