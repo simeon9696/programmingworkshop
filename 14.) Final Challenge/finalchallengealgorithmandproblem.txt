@@ -1,5 +1,7 @@
-Challenge: Find the highest profit margin given the dataset as is
-Proposed Solution:
+Challenge: Find the highest profit margin given the dataset as is, include some level of failing gracefully 
+           if operations you deem appropriate, do not complete successfully.
+	   
+Proposed Solution: Assuming file operations may fail
 
 1.) Display welcome message
 2.) Verify dataset is available for processing
