@@ -1,0 +1,24 @@
+Challenge: Find the highest profit margin given the dataset as is, include some level of failing gracefully 
+           if operations you deem appropriate, do not complete successfully.
+	   
+Proposed Solution: Assuming file operations may fail
+
+1.) Display welcome message
+2.) Verify dataset is available for processing
+3.) If data set is available continue to step 4 otherwise continue to step 5
+4.) Process data set
+	4.1) Get the number of rows in the data set
+	4.2) Determine the number of rows that have usable data, store for use later
+	4.3) Separate each column of data into separate representations
+	4.4) Let user know operation was successful or not by comparing 
+	     the size of the represenations to the number of rows with usable data.
+	4.5) Continue to step 6
+5.) Get data set for processing
+	5.1) Notify user about data setabsence
+	5.2) Prompt to add data setfor processing
+	5.3) Repeat 5.1 & 5.2 until data setis available
+	5.4) Continue to step 4
+6.) Take the column data with the 'Profit Margin' and find the maximum number in that column representation
+7.) Get the row data associated with that maximum number
+8.) Display all associated information to user
+9.) Exit Program
